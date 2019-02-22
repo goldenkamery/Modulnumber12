@@ -306,7 +306,7 @@ footer {
 @media (max-width: 900px) {
 	
 .header-main {
-  justify-content: center;
+  justify-content: space-between;
 }
 	
 .pravaya_storona>img {
@@ -392,14 +392,12 @@ footer {
 }
 
 @media (max-width: 768px) {
-	
-.cont3 {
-  grid-auto-flow: column;
-}
+
+header-main {
+  justify-content: space-between;
+  ma
 }
 
-@media (max-width: 650px) {
-	
 header {
   display: flex;
   flex-direction: column;
@@ -423,4 +421,16 @@ nav li {
   margin-bottom: 15px;
   cursor: pointer;
  }
+
+.cont3 {
+  grid-auto-flow: column;
 }
+}
+
+@media (max-width: 650px) {
+	
+.header-main {
+  justify-content: center;
+}
+}
+
